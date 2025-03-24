@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITLearnX - Manajemen Penjualan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Toko Kelontong - Manajemen Penjualan</h1>
+    </header>
+    
+    <main>
+        <section id="input-data">
+            <h2>Input Data</h2>
+            <button onclick="showForm('productForm')">Tambah Produk</button>
+            <button onclick="showForm('customerForm')">Tambah Pelanggan</button>
+            <button onclick="showForm('salesForm')">Tambah Transaksi</button>
+        </section>
+
+        <section id="laporan">
+            <h2>Laporan</h2>
+            <button onclick="showReport('stockReport')">Laporan Stok</button>
+            <button onclick="showReport('customerReport')">Laporan Pelanggan</button>
+            <button onclick="showReport('salesReport')">Rekapitulasi Penjualan</button>
+        </section>
+
+        <section id="cari-produk">
+            <h2>Cari Produk</h2>
+            <input type="text" id="searchProduct" placeholder="Masukkan nama produk..." onkeyup="searchProduct()">
+            <div id="searchResult"></div>
+        </section>
+    </main>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
