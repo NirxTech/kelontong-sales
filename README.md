@@ -1,43 +1,43 @@
-# 🛒 Toko Kelontong Manajemen Penjualan
-**Sistem sederhana untuk mengelola penjualan toko kelontong berbasis web.**
+# Toko Kelontong Sales Management
+A simple web-based system for managing sales in a convenience store.
 
+## Features
+- Add, edit, and delete products.
+- Manage customer data.
+- Record sales transactions.
+- View stock reports.
+- Generate daily, monthly, and yearly sales summaries.
+- Search for products easily.
+
+## Getting Started
+### Clone the Repository:
+```bash
+git clone https://github.com/NirxTech/kelontong-sales.git
+```
+### Open the Project:
+- Open `index.html` in your browser.
+
+### Deploy on GitHub Pages:
+1. Go to **Settings → Pages**.
+2. Set source to `main` branch.
+3. Access via: [Live Demo](https://NirxTech.github.io/kelontong-sales/)
+
+## Technologies Used
+- **HTML, CSS, JavaScript** for frontend.
+- **LocalStorage** for temporary data storage.
+- **CSS Animations** for a modern UI.
+
+## Live Demo
+Check it out here: [Live Demo](https://NirxTech.github.io/kelontong-sales/)
+
+## Screenshots
 ![image](https://github.com/user-attachments/assets/bd65e6ef-64c8-4fd7-8f3e-8fbe1ea894ba)
 
-## 📌 Fitur Utama
-✅ **Input Data Produk** – Tambah, edit, dan hapus produk toko kelontong.  
-✅ **Manajemen Pelanggan** – Simpan data pelanggan untuk transaksi.  
-✅ **Pencatatan Transaksi** – Rekam penjualan dengan ringkasan faktur.  
-✅ **Laporan Stok** – Tampilkan stok barang yang tersedia.  
-✅ **Rekapitulasi Penjualan** – Laporan harian, bulanan, dan tahunan.  
-✅ **Pencarian Produk** – Memudahkan pelanggan mencari barang.  
+## Contributions
+Feel free to fork, star, or contribute to this project.
 
-## 🚀 Cara Menjalankan Proyek
-1. **Clone repo ini:**  
-   ```bash
-   git clone https://github.com/NirxTech/kelontong-sales.git
-   ```
-2. **Buka file `index.html` di browser**  
-3. **(Opsional) Hosting dengan GitHub Pages:**  
-   - Masuk ke **Settings → Pages → Deploy from main branch**  
-   - Akses via `https://NirxTech.github.io/kelontong-sales/`  
-
-## 🎨 Teknologi yang Digunakan
-- **HTML, CSS, JavaScript** – Frontend interaktif tanpa backend.
-- **LocalStorage** – Simpan data sementara tanpa database.
-- **CSS Animations & UI Enhancements** – Tampilan lebih modern dan menarik.
-
-## 🎯 Demo Live
-🚀 **[Cek versi live di sini!](https://NirxTech.github.io/kelontong-sales/)**
-
-## 🖼️ Screenshot Tampilan
-![image](https://github.com/user-attachments/assets/bd65e6ef-64c8-4fd7-8f3e-8fbe1ea894ba)
-
-
-## 🤝 Kontribusi
-Suka dengan proyek ini? Jangan ragu buat fork, kasih bintang ⭐, atau kembangkan lebih lanjut!
-
-## 📄 Lisensi
-Proyek ini menggunakan **MIT License** – Bebas digunakan dan dimodifikasi.
+## License
+This project is licensed under the **MIT License**.
 
 ---
-🔥 **Dibuat dengan semangat deadline mepet dan sedikit rasa malas. Enjoy!** 😆
+Built with the power of extreme laziness and an unwavering dedication to doing the absolute minimum... but efficiently.
